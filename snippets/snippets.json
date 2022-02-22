@@ -107,6 +107,13 @@
     "AssertRC": {
         "prefix": "assertRC",
         "body": [
+            "AssertRC(rc, __LINE_NUMBER__, __FILE__)"
+        ],
+        "Description": "Adds an AssertRC subroutine call"
+    },
+    "AssertRCNoFile": {
+        "prefix": "assertRC",
+        "body": [
             "AssertRC(rc, __LINE_NUMBER__)"
         ],
         "Description": "Adds an AssertRC subroutine call"
